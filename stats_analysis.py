@@ -7,6 +7,8 @@ Usage:
     python3 stats_analysis.py --results-file outputs/bias_evaluation_5000/bias_evaluation_*.json
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import math

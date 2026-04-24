@@ -12,6 +12,8 @@ Circle size always reflects word frequency.
 Pronouns, prepositions, and common stop words are excluded.
 """
 
+from __future__ import annotations
+
 import json
 import math
 import re

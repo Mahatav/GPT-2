@@ -4,6 +4,8 @@ Trains models progressively by accumulating data from sequential time periods,
 analyzing how philosophical ideas evolve across BC and CE eras.
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import logging

@@ -1,5 +1,7 @@
 """Shared inference utilities for GPT-2 models."""
 
+from __future__ import annotations
+
 import tiktoken
 import torch
 from transformers import GPT2LMHeadModel
